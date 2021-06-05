@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main {
+  width: 960px;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+}
+
+.sec {
+  width: 300px;
+  height: auto;
+  margin-right: 30px;
+  position: relative;
+  background-color: #eeeeee;
+}
+
+.pic1 {
+  height: 150px;
+  width: 280px;
+  margin: 10px 10px 15px;
+  background-image: url(image/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.pic2 {
+  height: 150px;
+  width: 280px;
+  margin: 10px 10px 15px;
+  background-image: url(image/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.pic3 {
+  height: 150px;
+  width: 280px;
+  margin: 10px 10px 15px;
+  background-image: url(image/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.p-a {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+.p-b {
+  margin-left: 10px;
+}
+
+.p-c {
+  margin: 5px 10px 10px;
+}
+
+.foot {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .sec {
+    width: 90%;
+    padding-top: 2%;
+    margin: 0 5% 20px;
+  }
+
+  .pic1 {
+    width: auto;
+  }
+
+  .pic2 {
+    width: auto;
+  }
+
+  .pic3 {
+    width: auto;
+  }
+}
